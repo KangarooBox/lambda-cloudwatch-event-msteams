@@ -31,8 +31,8 @@ Clone this repository then follow the steps below:
 1. Copy the URL to your clipboard and save the connector
 1. Copy the ``env.example`` file to ``.env``
 1. Open the ``.env`` file in your editor and update the values inside
-  * The WEBHOOK_URL is the URL you copied to your clipboard in an earlier step
-  * The COLOR_??? values can be changed as you see fit
+   * The WEBHOOK_URL is the URL you copied to your clipboard in an earlier step
+   * The COLOR values can be changed as you see fit
 
 ## Tests
 
