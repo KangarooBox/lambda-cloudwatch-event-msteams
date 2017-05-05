@@ -1,0 +1,7 @@
+*~
+.env
+.sublime-project*
+npm-debug.log
+
+build/
+node_modules/

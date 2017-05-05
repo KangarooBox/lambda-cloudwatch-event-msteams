@@ -1,0 +1,69 @@
+{
+    "account": "YOURACCOUNTNUMBER",
+    "detail": {
+        "awsRegion": "us-east-1",
+        "eventID": "d7a862f9-af85-4990-9018-4444444444",
+        "eventName": "StartInstances",
+        "eventSource": "ec2.amazonaws.com",
+        "eventTime": "2017-03-16T07:00:32Z",
+        "eventType": "AwsApiCall",
+        "eventVersion": "1.05",
+        "recipientAccountId": "YOURACCOUNTNUMBER",
+        "requestID": "dcc53440-7f2c-466f-9f75-555555555",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [
+                    {
+                        "instanceId": "i-12345678901234567"
+                    }
+                ]
+            }
+        },
+        "responseElements": {
+            "instancesSet": {
+                "items": [
+                    {
+                        "currentState": {
+                            "code": 0,
+                            "name": "pending"
+                        },
+                        "instanceId": "i-12345678901234567",
+                        "previousState": {
+                            "code": 80,
+                            "name": "stopped"
+                        }
+                    }
+                ]
+            }
+        },
+        "sourceIPAddress": "34.207.160.238",
+        "userAgent": "aws-sdk-nodejs/2.22.0 linux/v4.3.2 exec-env/AWS_Lambda_nodejs4.3 promise",
+        "userIdentity": {
+            "accessKeyId": "ASIAIM3PGF76A4SKMTVQ",
+            "accountId": "YOURACCOUNTNUMBER",
+            "arn": "arn:aws:sts::YOURACCOUNTNUMBER:assumed-role/Lambda-Account-MyRoleId-VUKODM8XI6HI/StartStopEC2",
+            "principalId": "YOURPRINCIPALID:StartStopEC2",
+            "sessionContext": {
+                "attributes": {
+                    "creationDate": "2017-03-16T07:00:07Z",
+                    "mfaAuthenticated": "false"
+                },
+                "sessionIssuer": {
+                    "accountId": "YOURACCOUNTNUMBER",
+                    "arn": "arn:aws:iam::YOURACCOUNTNUMBER:role/lambda/Lambda-Account-MyRoleId-VUKODM8XI6HI",
+                    "principalId": "YOURPRINCIPALID",
+                    "type": "Role",
+                    "userName": "Lambda-Account-MyRoleId-VUKODM8XI6HI"
+                }
+            },
+            "type": "AssumedRole"
+        }
+    },
+    "detail-type": "AWS API Call via CloudTrail",
+    "id": "85a56db4-67c8-44d1-ad17-555555555555555",
+    "region": "us-east-1",
+    "resources": [],
+    "source": "aws.iam",
+    "time": "2017-03-16T12:48:04Z",
+    "version": "0"
+}

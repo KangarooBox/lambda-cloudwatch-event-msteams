@@ -1,0 +1,52 @@
+{
+    "eventVersion": "1.04",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "YOURPRINCIPALID:i-234234234324",
+        "arn": "arn:aws:sts::YOURACCOUNTNUMBER:assumed-role/MyRole/i-234234234324",
+        "accountId": "YOURACCOUNTNUMBER",
+        "accessKeyId": "ASIAIX3MBIWB6PG3YSKA",
+        "sessionContext": {
+            "attributes": {
+                "mfaAuthenticated": "false",
+                "creationDate": "2017-05-04T10:09:37Z"
+            },
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "YOURPRINCIPALID",
+                "arn": "arn:aws:iam::YOURACCOUNTNUMBER:role/MyRole",
+                "accountId": "YOURACCOUNTNUMBER",
+                "userName": "MyRole"
+            }
+        }
+    },
+    "eventTime": "2017-05-04T10:38:56Z",
+    "eventSource": "elasticloadbalancing.amazonaws.com",
+    "eventName": "RegisterInstancesWithLoadBalancer",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "52.70.173.226",
+    "userAgent": "AWSPowerShell/3.1.60.0 .NET_Runtime/4.0 .NET_Framework/4.0 OS/Microsoft_Windows_NT_6.3.9600.0 WindowsPowerShell/4.-1 ClientSync",
+    "requestParameters": {
+        "loadBalancerName": "elb-2342323432-242-24-24423423",
+        "instances": [
+            {
+                "instanceId": "i-123234345"
+            }
+        ]
+    },
+    "responseElements": {
+        "instances": [
+            {
+                "instanceId": "i-234234234324"
+            },
+            {
+                "instanceId": "i-234324345345"
+            }
+        ]
+    },
+    "requestID": "dfddfaec-30b5-11e7-96f8-5666666666",
+    "eventID": "cae723b5-fdeb-4a7c-9245-7777777777",
+    "eventType": "AwsApiCall",
+    "apiVersion": "2012-06-01",
+    "recipientAccountId": "YOURACCOUNTNUMBER"
+}
