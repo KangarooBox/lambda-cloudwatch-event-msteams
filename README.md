@@ -15,6 +15,7 @@ This function was originally derived from the
 from the [AWS blueprint named `cloudwatch-alarm-to-msteams`](https://aws.amazon.com/blogs/aws/new-msteams-integration-blueprints-for-aws-lambda/).
 The function in this repo allows CloudWatch Events to generate MS Teams notifications.
 
+![Deleting an ACCESS KEY](https://github.com/assertible/lambda-cloudwatch-msteams/raw/master/images/delete_access_key.png)
 
 ## Configuration
 
