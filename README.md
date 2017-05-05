@@ -15,11 +15,11 @@ This function was originally derived from the
 from the [AWS blueprint named `cloudwatch-alarm-to-msteams`](https://aws.amazon.com/blogs/aws/new-msteams-integration-blueprints-for-aws-lambda/).
 The function in this repo allows CloudWatch Events to generate MS Teams notifications.
 
-** Show important activities **
+**Show important activities**
 ![Deleting an ACCESS KEY](images/delete_access_key.png)
 
-** Show dangerous activities **
-![Creating an ACCESS KEY](images/craete_access_key.png)
+**Show dangerous activities**
+![Creating an ACCESS KEY](images/create_access_key.png)
 
 ## Configuration
 
