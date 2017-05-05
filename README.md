@@ -29,10 +29,10 @@ Clone this repository then follow the steps below:
 1. Go to the options screen for that channel and choose "Connectors"
 1. Select the "Incoming Webhook" connector, fill in the options and hit the "Create" button
 1. Copy the URL to your clipboard and save the connector
-1. Copy the ``env.environment`` file to ``.env``
+1. Copy the ``env.example`` file to ``.env``
 1. Open the ``.env`` file in your editor and update the values inside
-11. The WEBHOOK_URL is the URL you copied to your clipboard in an earlier step
-11. The COLOR_??? values can be changed as you see fit
+  * The WEBHOOK_URL is the URL you copied to your clipboard in an earlier step
+  * The COLOR_??? values can be changed as you see fit
 
 ## Tests
 
